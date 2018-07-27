@@ -11,9 +11,10 @@ Educational learning experience with forks and pinging servers
 - [ ] Add threads into the mix
 - [ ] Successfully send a request to a real server/ip
 - [ ] Send multiple request to real ip/server
-- [ ] Convert to more efficient language
+- [ ] Test and record results
 
 
 ## Potential improvements
 - Using a VPN (research how to hide ip)
 - Not only use a single computer to produce requests
+- Convert to more efficient language
