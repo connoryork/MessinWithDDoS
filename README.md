@@ -1,7 +1,7 @@
 # MessinWithDDoS
 Educational learning experience with forks and pinging servers
 
-
+![6ix9ine](https://i.imgur.com/pmky1f4.png)
 
 ## Steps for Single Computer Approach:
 1. Create python script that successfully sends a request to "fake" server/ip (localhost)
