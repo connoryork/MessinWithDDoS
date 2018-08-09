@@ -1,9 +1,10 @@
 import threading
 
 
-class MyThread(threading.thread):
+class MyThread(threading.Thread):
 
     def __init__(self, nPings):
+        super().__init__()
         self.nPings = nPings
 
     def run(self):
@@ -17,8 +18,8 @@ class MyThread(threading.thread):
 def start(nThreads, nPings):
     threadList = []
     for i in range(nThreads):
-        threadList.push(MyThread(nThreads, nPings))
-    for i in range(threadList):
+        threadList.append(MyThread(nPings))
+    for i in range(len(threadList)):
         threadList[i].run()
 
 if __name__ == '__main__':
